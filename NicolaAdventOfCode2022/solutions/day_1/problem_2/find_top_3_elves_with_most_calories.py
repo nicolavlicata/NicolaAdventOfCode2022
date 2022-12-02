@@ -1,6 +1,9 @@
 import heapq
 
+from utils.timer import timer_func
 
+
+@timer_func
 def find_top_3_elves_with_most_calories(calories):
     max_heap = []
     current_sum = 0

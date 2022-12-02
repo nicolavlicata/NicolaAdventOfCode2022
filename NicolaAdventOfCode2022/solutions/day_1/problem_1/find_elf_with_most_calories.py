@@ -1,6 +1,9 @@
 import math
 
+from utils.timer import timer_func
 
+
+@timer_func
 def find_elf_with_most_calories(calories):
     max_so_far = -math.inf
     current_sum = 0
